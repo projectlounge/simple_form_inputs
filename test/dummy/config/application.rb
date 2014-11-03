@@ -4,6 +4,8 @@ require 'rails/all'
 
 Bundler.require(*Rails.groups)
 require "simple_form_inputs"
+require 'pry'
+require 'pry-nav'
 
 module Dummy
   class Application < Rails::Application
